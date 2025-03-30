@@ -9,10 +9,9 @@ namespace SExCoD
         static void Main(string[] args)
         {
             Console.WriteLine($"| ---------------------------------------");
-            Console.WriteLine($"| SExCoD");
+            Console.WriteLine($"| SExCoD - pv edition" );
             Console.WriteLine($"| A tool to convert XMODEL to SEModel");
             Console.WriteLine($"| Developed by Scobalula");
-            Console.WriteLine($"| Donate: https://ko-fi.com/scobalula");
             Console.WriteLine($"| Version: {Assembly.GetExecutingAssembly().GetName().Version}");
             Console.WriteLine($"| ---------------------------------------");
 

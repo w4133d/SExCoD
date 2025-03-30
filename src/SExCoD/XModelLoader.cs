@@ -1,4 +1,4 @@
-﻿using System.Numerics;
+using System.Numerics;
 using CallOfFile;
 using SELib;
 
@@ -269,13 +269,18 @@ namespace SExCoD
                     var faceIndex = -1;
 
                     // Update UV
-                    uv = new(uv.X, 1.0f - uv.Y);
+                    //uv = new(uv.X, 1.0f - uv.Y);
+                    /*
+                     * Casually deleting 6 characters here & recompiling
+                     * - pv
+                     */
+                    uv = new( uv.X, uv.Y );
 
                     // We need to check against other instances of faces
                     // using this vertex index, if we find an existing 
                     // instance of that vertex otherwise we end up with
                     // hundres of thousands of verts per face vertex
-                    foreach (var c in existing)
+                    foreach( var c in existing )
                     {
                         if (c.Item1 == mesh)
                         {
