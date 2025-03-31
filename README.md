@@ -2,6 +2,8 @@
 
 SExCoD is a tool for converting between SEAnim/SEModel and XAnim/XModel from Call of Duty.
 
+The tool was made by Scobalula, this is a fork to fix an issue where the UV maps are flipped vertically. 
+
 It currently supports:
 
 * XMODEL_BIN/XMODEL_EXPORT to SEModel
